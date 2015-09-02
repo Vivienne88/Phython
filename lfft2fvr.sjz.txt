@@ -1,0 +1,16 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitattributes
+#	new file:   .gitignore
+#	new file:   Lec1/Lec1.sln
+#	new file:   Lec1/Lec1.v12.suo
+#	new file:   Lec1/Lec1/Lec1.py
+#	new file:   Lec1/Lec1/Lec1.pyproj
+#
+
