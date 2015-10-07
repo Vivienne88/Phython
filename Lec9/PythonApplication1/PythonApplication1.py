@@ -57,8 +57,6 @@ data = {'홍길동' : [80,70,60,92],
 data.get("홍길동").sort()
 data.get("김길동").sort()
 data.get("고길동").sort()
-print(data["홍길동"])
-print(data["김길동"])
-print(data["고길동"])
-
+sorted(data.keys())
+print(data)
 
