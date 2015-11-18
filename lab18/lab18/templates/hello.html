@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GG</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body>
+
+    {% block myblock %}
+    {% if name %}
+        <h1>{{name}}</h1>
+        <h1>{{skill}}</h1>
+    {% else %}
+        <h1>No Names</h1>
+        <h1>No Skills</h1>
+    {% endif %}
+    {% endblock %}
+
+    {% for item in items %}
+    <li><a href="{{item.href}}">{{item.caption}}</a></li>
+    {% endfor %}
+</body>
+</html>
